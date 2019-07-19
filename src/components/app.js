@@ -3,6 +3,7 @@ import {BrowserRouter, Switch, Route} from 'react-router-dom'
 import Dashboard from './Dashboard';
 import Home from './Home';
 import axios from 'axios';
+import MainPage from './main-page/main-page';
 
 
 export default class App extends Component {
@@ -61,9 +62,18 @@ export default class App extends Component {
       <div className='app'>
         <BrowserRouter>
           <Switch>
+            <Route
+            exact
+            path={"/"}
+            render={props =>(
+              <MainPage 
+              {... props}/>
+            )}
+            />
+
             <Route 
             exact 
-            path={"/"} 
+            path={"/home"} 
             render={props => (
               <Home 
               {...props} 

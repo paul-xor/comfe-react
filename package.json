@@ -56,13 +56,17 @@
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
     "node-sass": "^4.9.2",
+    "popper.js": "^1.14.7",
     "postcss-loader": "^2.1.6",
     "react": "16.8.0",
     "react-dom": "16.8.0",
     "react-redux": "5.0.6",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.3.1",
+    "react-scrollspy": "^3.4.0",
+    "react-scrollspy-nav": "^1.2.1",
     "redux": "^3.7.2",
+    "resolve-url-loader": "^3.1.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.21.0",
     "webpack": "^4.16.4",
@@ -77,7 +81,13 @@
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-react": "^6.24.1",
     "babel-register": "^6.26.0",
+    "bootstrap": "^4.3.1",
+    "bootstrap-loader": "^3.0.4",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
-    "uglifyjs-webpack-plugin": "^1.2.7"
+    "jquery": "^1.12.4",
+    "mini-css-extract-plugin": "^0.8.0",
+    "tether": "^1.4.7",
+    "uglifyjs-webpack-plugin": "^1.2.7",
+    "url-loader": "^2.0.1"
   }
 }
